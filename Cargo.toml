@@ -1,0 +1,14 @@
+[package]
+name = "impl_vs_dyn"
+version = "0.1.0"
+authors = ["Michael Snoyman <michael@snoyman.com>"]
+edition = "2018"
+
+[dependencies]
+
+[dev-dependencies]
+criterion = "0.3"
+
+[[bench]]
+name = "impl_vs_dyn"
+harness = false
